@@ -165,14 +165,6 @@ li {
 
 /*SCROLLBARS AND SCROLLING*/
 
-@media only screen and (orientation:landscape) {
-    .scrollable {
-        overflow-y: scroll;
-        margin: auto;
-        max-height: 80%;
-    }
-}
-
 ::-webkit-scrollbar {
     width: 0.125rem;
 }
@@ -217,5 +209,13 @@ li {
     body {
         overflow-y: scroll;
         height: auto;
+    }
+}
+
+@media only screen and (orientation:landscape) and (min-width:1001px) {
+    .scrollable {
+        overflow-y: scroll;
+        margin: auto;
+        max-height: 80%;
     }
 }
