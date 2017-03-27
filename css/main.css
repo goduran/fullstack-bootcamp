@@ -207,4 +207,7 @@ li {
         overflow: auto;
         flex-direction: column;
     }
+    section~section, .title-block-description {
+        margin: 0.25rem;
+    }
 }
