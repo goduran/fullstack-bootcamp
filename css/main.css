@@ -164,7 +164,7 @@ li {
 
 /*SCROLLBARS AND SCROLLING*/
 
-@media (min-width:1001px) {
+@media (orientation:landscape) {
     .scrollable {
         overflow-y: scroll;
         margin: auto;
