@@ -212,10 +212,16 @@ li {
     }
 }
 
+@media only screen and (orientation:landscape) and (max-width:1001px) {
+    .scrollable {
+        margin: auto;
+        max-height: 80vh;
+    }
+}
+
 @media only screen and (orientation:landscape) and (min-width:1001px) {
     .scrollable {
         overflow-y: scroll;
-        margin: auto;
         max-height: 80%;
     }
 }
