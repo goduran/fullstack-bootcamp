@@ -64,7 +64,6 @@ hr {
 /*HEADER*/
 
 header {
-    display: flex;
     padding: 0;
     margin: 0;
     background-color: transparent;
@@ -181,4 +180,22 @@ li {
 
 .block-outlined .scrollable::-webkit-scrollbar-thumb {
     background-color: white;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width:1000px) {
+    body {
+        overflow-y: scroll;
+        height: auto;
+    }
+    header {
+        flex-direction: column;
+        overflow: auto;
+    }
+    article {
+        overflow: auto;
+        flex-direction: column;
+    }
 }
