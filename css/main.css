@@ -154,3 +154,16 @@ li {
 section {
     overflow-y: scroll;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #546E7A;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border: 2px solid #546E7A;
+}
