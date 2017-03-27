@@ -149,6 +149,7 @@ h2 {
 
 ul {
     list-style: none;
+    padding-left: 1rem;
 }
 
 li {
@@ -209,5 +210,12 @@ li {
     }
     section~section, .title-block-description {
         margin: 0.25rem;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    body {
+        overflow-y: scroll;
+        height: auto;
     }
 }
