@@ -33,6 +33,7 @@ body {
     position: relative;
     overflow-y: hidden;
     padding: 1rem;
+    min-width: 16rem;
 }
 
 hr {
@@ -156,6 +157,7 @@ header {
 article {
     overflow-y: hidden;
     display: flex;
+    flex-grow: 1;
 }
 
 .title-block-name hr {
@@ -187,16 +189,28 @@ article section {
 
 /*TEXT STYLING*/
 
-h1 {
-    font-family: 'Eczar', serif;
-    font-weight: 800;
+h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
-h2 {
-    margin-top: 0;
+h1 {
+    font-family: 'Eczar', serif;
+    font-weight: 800;
+}
+
+h2, h3 {
     font-family: 'Eczar', serif;
     font-weight: 400;
+}
+
+h4 {
+    margin: 0;
+}
+
+.itemDate {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.6;
 }
 
 ul {
@@ -212,6 +226,10 @@ li {
 
 .block-outlined li {
     border-color: white;
+}
+
+p {
+    margin: 0;
 }
 
 
@@ -307,6 +325,8 @@ li {
     }
 }
 
+
+}
 
 }
 
