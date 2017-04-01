@@ -5,6 +5,8 @@ html {
 }
 
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -89,6 +91,19 @@ header {
     background-color: #26c6da;
     min-width: 16rem;
     max-width: 16rem;
+}
+
+.title-block-name img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+.title-block-name:hover img {
+    opacity: 1;
 }
 
 .title-block-description {
@@ -289,4 +304,9 @@ li {
         overflow-y: scroll;
         max-height: 80%;
     }
+}
+
+
+}
+
 }
