@@ -257,7 +257,7 @@ p {
 
 /*Mobile*/
 
-@media only screen and (orientation:portrait) {
+@media only screen and (orientation:portrait), (max-width:880px) {
     html {
         font-size: 200%;
     }
@@ -308,12 +308,14 @@ p {
 
 /*tablet*/
 
-
-/*@media only screen and (orientation:landscape) and (max-width:1023px) {
+@media only screen and (orientation:landscape) and (max-width:1023px) {
     .scrollable {
         margin: auto;
     }
-}*/
+}
+
+
+/*880px min que tiene sentido*/
 
 
 /*Pantallas Grandes*/
@@ -323,11 +325,4 @@ p {
         overflow-y: scroll;
         max-height: 80%;
     }
-}
-
-
-}
-
-}
-
 }
