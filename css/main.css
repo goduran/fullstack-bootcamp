@@ -124,9 +124,9 @@ header {
 }
 
 #social {
-    position: absolute;
+    /*position: absolute;
     bottom: 0;
-    right: 0;
+    right: 0;*/
     text-align: right;
     padding: 0 0.125rem 0 0.125rem;
     margin: 0;
