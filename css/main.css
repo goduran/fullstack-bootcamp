@@ -11,8 +11,8 @@ html {
 }
 
 body {
-    background-color: #546E7A;
-    color: white;
+    background-color: #fafafa;
+    color: #546E7A;
     font-family: 'Lato', sans-serif;
     overflow: hidden;
     display: flex;
@@ -58,13 +58,14 @@ hr {
 }
 
 .block-outlined {
-    color: white;
+    color: #546E7A;
     border: 0.125rem solid white;
-    background-color: #546E7A;
+    //background-color: #546E7A;
+    background-color: white;
 }
 
 .block-outlined hr {
-    border-color: white;
+    border-color: #546E7A;
 }
 
 
@@ -81,7 +82,7 @@ header {
 
 .title-block {
     padding: 3rem;
-    color: white;
+    color: #546E7A;
     margin: 0.25rem 0.25rem 0 0.25rem;
     position: relative;
     box-sizing: border-box;
@@ -89,6 +90,7 @@ header {
 }
 
 .title-block-name {
+    color:white;
     background-color: #26c6da;
     min-width: 16rem;
     max-width: 16rem;
